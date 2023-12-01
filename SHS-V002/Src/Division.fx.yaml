@@ -770,7 +770,7 @@ Division As screen:
         Y: =318
         ZIndex: =13
 
-    Action As label:
+    Action_division As label:
         Align: =Align.Center
         FontWeight: =FontWeight.Bold
         Height: =44
