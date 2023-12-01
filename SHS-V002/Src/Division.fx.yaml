@@ -84,7 +84,10 @@ Division As screen:
         Label17 As label:
             Align: =Align.Center
             FontWeight: =FontWeight.Bold
+            Height: =56
+            Size: =20
             Text: ="Add Division "
+            Width: =262
             X: =24
             Y: =21
             ZIndex: =1
