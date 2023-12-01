@@ -50,12 +50,28 @@
         ZIndex: =9
 
     Search_1 As Search:
-        X: =919
-        Y: =200
+        X: =745
+        Y: =204
         ZIndex: =10
 
     "'Add doc_Button_1' As 'Add doc_Button'":
-        X: =1166
-        Y: =200
+        X: =970
+        Y: =204
         ZIndex: =11
+
+    Button1 As button:
+        PaddingLeft: =35
+        Text: ="Add"
+        X: =1154
+        Y: =206
+        ZIndex: =12
+
+    Icon15 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =38
+        Icon: =Icon.Add
+        Width: =50
+        X: =1168
+        Y: =208
+        ZIndex: =13
 
