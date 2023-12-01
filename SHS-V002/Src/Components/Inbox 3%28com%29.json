@@ -42,7 +42,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 352,
+            "PublishOrderIndex": 361,
             "Rules": [
               {
                 "Category": "Design",
@@ -181,7 +181,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 353,
+            "PublishOrderIndex": 362,
             "Rules": [
               {
                 "Category": "Data",
@@ -518,7 +518,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 354,
+            "PublishOrderIndex": 363,
             "Rules": [
               {
                 "Category": "Design",
@@ -737,7 +737,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Inbox 3(com)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 351,
+        "PublishOrderIndex": 360,
         "Rules": [
           {
             "Category": "Data",
