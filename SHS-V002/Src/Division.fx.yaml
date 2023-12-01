@@ -833,6 +833,7 @@ Division As screen:
             Form2 As form:
                 DataSource: =Division_1
                 Height: =195
+                Item: =Gallery6.Selected
                 Width: =926
                 Y: =93
                 ZIndex: =2
