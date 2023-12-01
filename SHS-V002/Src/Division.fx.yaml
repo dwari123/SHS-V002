@@ -799,6 +799,13 @@ Division As screen:
         Y: =384
         ZIndex: =15
 
+    Container9 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(166, 166, 166, 0.39)
+        Height: =766
+        Width: =1366
+        Y: =2
+        ZIndex: =18
+
     Editdivpopup As group:
         Height: =5
         Width: =5
