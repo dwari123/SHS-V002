@@ -178,3 +178,11 @@
             Y: =18
             ZIndex: =4
 
+        Button7 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Button"
+            Width: =106
+            X: =826
+            Y: =18
+            ZIndex: =5
+
