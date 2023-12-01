@@ -813,7 +813,7 @@ Division As screen:
         ZIndex: =17
 
         Label22 As label:
-            Text: ="Text"
+            Text: ="Edit Division"
             X: =15
             Y: =27
             ZIndex: =1
