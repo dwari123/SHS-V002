@@ -69,6 +69,7 @@ Division As screen:
     Container5 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(166, 166, 166, 0.4)
         Height: =766
+        Visible: =showpopup
         Width: =1366
         Y: =2
         ZIndex: =9
