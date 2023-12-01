@@ -1474,3 +1474,11 @@ Division As screen:
             Y: =27
             ZIndex: =1
 
+        Icon16 As icon.HorizontalLine:
+            Height: =0
+            Icon: =Icon.HorizontalLine
+            Width: =939
+            X: =1
+            Y: =101
+            ZIndex: =2
+
