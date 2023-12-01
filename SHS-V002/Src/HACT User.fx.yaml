@@ -164,3 +164,10 @@
             Y: =18
             ZIndex: =2
 
+        Label26_2 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Stakeholder
+            X: =474
+            Y: =18
+            ZIndex: =3
+
