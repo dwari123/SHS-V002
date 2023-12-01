@@ -55,3 +55,12 @@
         Y: =180
         ZIndex: =7
 
+    Icon15_2 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =38
+        Icon: =Icon.Add
+        Width: =50
+        X: =1166
+        Y: =180
+        ZIndex: =8
+
