@@ -736,9 +736,26 @@ Division As screen:
         FontWeight: =FontWeight.Bold
         Height: =44
         Size: =20
-        Text: ="Division Name"
+        Text: ="Action"
         Width: =220
         X: =921
         Y: =318
         ZIndex: =13
+
+    Icon5_19 As icon.HorizontalLine:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =1
+        Color: =RGBA(214, 223, 238, 1)
+        FocusedBorderThickness: =1
+        Height: =1
+        Icon: =Icon.HorizontalLine
+        PaddingBottom: =10
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =10
+        Rotation: =1
+        Width: =1050
+        X: =291
+        Y: =384
+        ZIndex: =14
 
