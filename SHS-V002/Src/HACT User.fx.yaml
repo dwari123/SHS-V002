@@ -800,8 +800,12 @@
         ZIndex: =19
 
         Label28 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            Height: =60
             Size: =20
             Text: ="Edit SHS User"
+            Width: =216
             X: =9
             Y: =18
             ZIndex: =1
