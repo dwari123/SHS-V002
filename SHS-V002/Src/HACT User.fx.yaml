@@ -1427,6 +1427,8 @@
             ZIndex: =3
 
         Button10 As button:
+            OnSelect: |-
+                =Remove('SHS-Users',Gallery7.Selected);UpdateContext({vardeleteshsuserpopup:false})
             Text: ="Yes"
             X: =42
             Y: =321
@@ -1434,7 +1436,7 @@
 
         Button10_1 As button:
             OnSelect: |-
-                =UpdateContext({vardeleteshsuserpopup:false
+                =UpdateContext({vardeleteshsuserpopup:false})
             Text: ="No"
             X: =342
             Y: =321
