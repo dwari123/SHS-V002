@@ -1358,3 +1358,9 @@
                     Y: =DataCardKey40.Y
                     ZIndex: =4
 
+        Button9 As button:
+            Text: ="Button"
+            X: =37
+            Y: =378
+            ZIndex: =3
+
