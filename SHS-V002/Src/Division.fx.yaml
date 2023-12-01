@@ -710,7 +710,11 @@ Division As screen:
             ZIndex: =4
 
     Label20 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =44
+        Size: =20
         Text: ="Division Code"
+        Width: =220
         X: =303
         Y: =318
         ZIndex: =11
