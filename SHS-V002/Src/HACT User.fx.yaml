@@ -1433,7 +1433,9 @@
             ZIndex: =4
 
         Button10_1 As button:
-            Text: ="Yes"
+            OnSelect: |-
+                =UpdateContext({vardeleteshsuserpopup:false
+            Text: ="No"
             X: =342
             Y: =321
             ZIndex: =5
