@@ -172,6 +172,7 @@
     "Division Code_DataCard2": 437,
     "Division Name_DataCard1": 361,
     "Division Name_DataCard2": 432,
+    "Editdivpopup": 489,
     "ErrorMessage1": 364,
     "ErrorMessage10": 409,
     "ErrorMessage12": 435,
@@ -472,7 +473,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/01/2023 11:06:06",
+  "HeaderLastSavedDateTimeUTC": "12/01/2023 11:06:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5d809d0c-f856-4cdc-aac2-b07088dcc01c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -587,7 +588,12 @@
     "Tables\\cr35c_table_statuscode": 36,
     "Tables\\default.cds_cr35c_table_views": 38
   },
-  "OrderGroupControls": {},
+  "OrderGroupControls": {
+    "Editdivpopup": {
+      "Container7": 0,
+      "Container8": 1
+    }
+  },
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
@@ -776,6 +782,7 @@
     "Division Code_DataCard2": {},
     "Division Name_DataCard1": {},
     "Division Name_DataCard2": {},
+    "Editdivpopup": {},
     "ErrorMessage1": {},
     "ErrorMessage10": {},
     "ErrorMessage12": {},
@@ -1247,6 +1254,7 @@
     "Division Code_DataCard2": 55,
     "Division Name_DataCard1": 99,
     "Division Name_DataCard2": 50,
+    "Editdivpopup": 0,
     "ErrorMessage1": 103,
     "ErrorMessage10": 143,
     "ErrorMessage12": 54,
