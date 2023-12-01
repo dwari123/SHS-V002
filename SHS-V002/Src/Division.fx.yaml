@@ -710,6 +710,7 @@ Division As screen:
             ZIndex: =4
 
     Label20 As label:
+        Align: =Align.Center
         FontWeight: =FontWeight.Bold
         Height: =44
         Size: =20
