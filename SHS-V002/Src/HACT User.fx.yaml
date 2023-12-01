@@ -67,7 +67,7 @@
         ZIndex: =8
 
     Label25 As label:
-        Text: ="Text"
+        Text: ="Display Name"
         X: =306
         Y: =314
         ZIndex: =9
