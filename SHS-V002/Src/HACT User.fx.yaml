@@ -1428,7 +1428,7 @@
 
         Button10 As button:
             OnSelect: |-
-                =Remove('SHS-Users',Gallery7.Selected);UpdateContext({vardeleteshsuserpopup:false})
+                =Remove('SHS-Users',Gallery7.Selected);UpdateContext({vardeleteshsuserpopup:false});Notify("The SHS users has been deleted successfully",NotificationType.Success
             Text: ="Yes"
             X: =42
             Y: =321
