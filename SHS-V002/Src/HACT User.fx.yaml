@@ -1409,3 +1409,10 @@
             Y: =42
             ZIndex: =1
 
+        Icon17 As icon.HorizontalLine:
+            Height: =0
+            Icon: =Icon.HorizontalLine
+            Width: =917
+            Y: =90
+            ZIndex: =2
+
