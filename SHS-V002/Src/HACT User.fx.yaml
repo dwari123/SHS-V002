@@ -786,6 +786,12 @@
             Y: =462
             ZIndex: =4
 
+    Container15 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(166, 166, 166, 0.46)
+        Height: =768
+        Width: =1366
+        ZIndex: =20
+
     vareditshsuserpopup As group:
         Height: =5
         Width: =5
