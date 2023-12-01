@@ -1475,10 +1475,19 @@ Division As screen:
             ZIndex: =1
 
         Icon16 As icon.HorizontalLine:
+            BorderThickness: =1
             Height: =0
             Icon: =Icon.HorizontalLine
             Width: =939
             X: =1
             Y: =101
             ZIndex: =2
+
+        Label24 As label:
+            Height: =158
+            Text: ="Textelete?"
+            Width: =750
+            X: =63
+            Y: =150
+            ZIndex: =3
 
