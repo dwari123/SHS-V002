@@ -115,9 +115,26 @@
         FontWeight: =FontWeight.Bold
         Height: =36
         Size: =20
-        Text: ="User Role"
+        Text: ="Action"
         Width: =198
         X: =1158
         Y: =294
         ZIndex: =13
+
+    Icon5_20 As icon.HorizontalLine:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =1
+        Color: =RGBA(214, 223, 238, 1)
+        FocusedBorderThickness: =1
+        Height: =1
+        Icon: =Icon.HorizontalLine
+        PaddingBottom: =10
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =10
+        Rotation: =1
+        Width: =1050
+        X: =306
+        Y: =349
+        ZIndex: =14
 
