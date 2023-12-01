@@ -78,6 +78,7 @@
     "Button4_1": 427,
     "Button5": 487,
     "Button5_1": 488,
+    "Button6": 495,
     "Champion_DataCard1": 381,
     "Champion_DataCard2": 452,
     "Circle1_1": 7,
@@ -478,7 +479,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/01/2023 11:13:14",
+  "HeaderLastSavedDateTimeUTC": "12/01/2023 11:13:41",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5d809d0c-f856-4cdc-aac2-b07088dcc01c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -693,6 +694,7 @@
     "Button4_1": {},
     "Button5": {},
     "Button5_1": {},
+    "Button6": {},
     "Champion_DataCard1": {},
     "Champion_DataCard2": {},
     "Circle1_1": {},
@@ -1170,6 +1172,7 @@
     "Button4_1": 168,
     "Button5": 97,
     "Button5_1": 98,
+    "Button6": 0,
     "Champion_DataCard1": 117,
     "Champion_DataCard2": 67,
     "Circle1_1": 319,
