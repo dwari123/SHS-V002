@@ -84,7 +84,7 @@
         Size: =20
         Text: ="Designation"
         Width: =198
-        X: =545
+        X: =518
         Y: =294
         ZIndex: =10
 
@@ -93,9 +93,20 @@
         FontWeight: =FontWeight.Bold
         Height: =36
         Size: =20
-        Text: ="Designation"
+        Text: ="Stakeholder"
         Width: =198
-        X: =758
+        X: =736
         Y: =294
         ZIndex: =11
+
+    Label25_3 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =36
+        Size: =20
+        Text: ="Stakeholder"
+        Width: =198
+        X: =949
+        Y: =294
+        ZIndex: =12
 
