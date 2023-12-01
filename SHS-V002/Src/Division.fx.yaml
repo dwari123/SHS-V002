@@ -1464,7 +1464,9 @@ Division As screen:
         ZIndex: =19
 
         Label23 As label:
-            Text: ="Text"
+            Height: =46
+            Text: ="Confirmation"
+            Width: =236
             X: =39
             Y: =24
             ZIndex: =1
