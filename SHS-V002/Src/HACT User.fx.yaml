@@ -197,6 +197,7 @@
     Container11 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(166, 166, 166, 0.36)
         Height: =768
+        Visible: =varaddshsuserpopup
         Width: =1366
         ZIndex: =16
 
