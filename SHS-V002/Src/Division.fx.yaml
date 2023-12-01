@@ -49,6 +49,8 @@ Division As screen:
         ZIndex: =6
 
     Button1_1 As button:
+        OnSelect: |-
+            =UpdateContext({showpopup:true})
         PaddingLeft: =35
         Text: ="Add"
         X: =1166
