@@ -1495,6 +1495,8 @@ Division As screen:
             ZIndex: =3
 
         Button6 As button:
+            OnSelect: |-
+                =Remove(Division_1,Gallery6.Selected);UpdateContext({varshowdeletedivpopup:false});Notify("The divison has been deleted successfully",NotificationType.Success)
             Text: ="Yes"
             X: =63
             Y: =326
