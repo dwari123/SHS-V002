@@ -812,3 +812,9 @@ Division As screen:
         Y: =147
         ZIndex: =17
 
+        Label22 As label:
+            Text: ="Text"
+            X: =15
+            Y: =27
+            ZIndex: =1
+
