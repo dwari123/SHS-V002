@@ -772,7 +772,7 @@
 
         Button8 As button:
             OnSelect: |-
-                =SubmitForm(Form3);NewForm(Form3);UpdateContext({varaddshsuserpopup:false});Notify("The SHS users has been added successfully",NotificationType.Success
+                =SubmitForm(Form3);NewForm(Form3);UpdateContext({varaddshsuserpopup:false});Notify("The SHS users has been added successfully",NotificationType.Success)
             Text: ="Save"
             X: =33
             Y: =462
