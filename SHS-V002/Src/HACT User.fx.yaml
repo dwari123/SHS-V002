@@ -157,3 +157,10 @@
             Y: =18
             ZIndex: =1
 
+        Label26_1 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Designation
+            X: =236
+            Y: =18
+            ZIndex: =2
+
