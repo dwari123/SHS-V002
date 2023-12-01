@@ -1367,6 +1367,8 @@
             ZIndex: =3
 
         Button9_1 As button:
+            OnSelect: |-
+                =UpdateContext({varshoweditshsuserpopup:false})
             Text: ="Cancel"
             X: =366
             Y: =378
