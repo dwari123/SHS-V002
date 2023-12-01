@@ -59,9 +59,10 @@
             "LayoutName": "",
             "MetaDataIDKey": "",
             "Name": "Image7",
+            "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 221,
+            "PublishOrderIndex": 56,
             "Rules": [
               {
                 "Category": "Data",
@@ -299,9 +300,10 @@
             "LayoutName": "",
             "MetaDataIDKey": "",
             "Name": "Circle1_1",
+            "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 222,
+            "PublishOrderIndex": 57,
             "Rules": [
               {
                 "Category": "Design",
@@ -501,9 +503,10 @@
             "LayoutName": "",
             "MetaDataIDKey": "",
             "Name": "Label6",
+            "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 223,
+            "PublishOrderIndex": 58,
             "Rules": [
               {
                 "Category": "Data",
@@ -816,9 +819,10 @@
             "LayoutName": "",
             "MetaDataIDKey": "",
             "Name": "Icon1",
+            "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 224,
+            "PublishOrderIndex": 59,
             "Rules": [
               {
                 "Category": "Design",
@@ -1057,9 +1061,10 @@
             "LayoutName": "",
             "MetaDataIDKey": "",
             "Name": "Label4",
+            "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 225,
+            "PublishOrderIndex": 60,
             "Rules": [
               {
                 "Category": "Data",
@@ -1351,9 +1356,10 @@
             "LayoutName": "",
             "MetaDataIDKey": "",
             "Name": "Icon2",
+            "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 226,
+            "PublishOrderIndex": 61,
             "Rules": [
               {
                 "Category": "Design",
@@ -1553,9 +1559,10 @@
         "LayoutName": "",
         "MetaDataIDKey": "",
         "Name": "Container1",
+        "OptimizeForDevices": "Off",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 220,
+        "PublishOrderIndex": 54,
         "Rules": [
           {
             "Category": "Design",
@@ -1741,9 +1748,10 @@
             "LayoutName": "",
             "MetaDataIDKey": "",
             "Name": "galleryTemplate3",
+            "OptimizeForDevices": "Off",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 228,
+            "PublishOrderIndex": 62,
             "Rules": [
               {
                 "Category": "Design",
@@ -1879,9 +1887,10 @@
             "LayoutName": "",
             "MetaDataIDKey": "",
             "Name": "Title_Parent",
+            "OptimizeForDevices": "Off",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 229,
+            "PublishOrderIndex": 63,
             "Rules": [
               {
                 "Category": "Data",
@@ -2230,9 +2239,10 @@
         "LayoutName": "",
         "MetaDataIDKey": "",
         "Name": "Gallery3",
+        "OptimizeForDevices": "Off",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 227,
+        "PublishOrderIndex": 55,
         "Rules": [
           {
             "Category": "Data",
@@ -2456,7 +2466,7 @@
       "MaxSubMenu",
       "submenu_inbox"
     ],
-    "LastModifiedTimestamp": "638350255498844452",
+    "LastModifiedTimestamp": "638370242304875450",
     "Name": "Component1",
     "Rules": [
       {
@@ -2606,7 +2616,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638350255498844452",
+  "LastModifiedTimestamp": "638370242304875450",
   "Name": "415e1786c3c94354acf26afaf63ccb82",
   "OverridableProperties": {},
   "Version": "638327128456687156"
