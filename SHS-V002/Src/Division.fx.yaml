@@ -765,7 +765,7 @@ Division As screen:
         Items: =Division_1
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =116
+        TemplateSize: =94
         Width: =1063
         X: =303
         Y: =411
@@ -776,4 +776,10 @@ Division As screen:
             Text: =ThisItem.'Division Code'
             X: =33
             ZIndex: =1
+
+        Label21_1 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Division Name'
+            X: =302
+            ZIndex: =2
 
