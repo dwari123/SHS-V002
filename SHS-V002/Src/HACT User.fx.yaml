@@ -138,3 +138,22 @@
         Y: =349
         ZIndex: =14
 
+    Gallery7 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =390
+        Items: ='SHS-Users'
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =126
+        Width: =1060
+        X: =306
+        Y: =378
+        ZIndex: =15
+
+        Label26 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Display Name'
+            X: =21
+            Y: =18
+            ZIndex: =1
+

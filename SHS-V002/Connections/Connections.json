@@ -10,12 +10,16 @@
         "dataSources": {
           "Division_1": {
             "tableName": "31c2a3e9-f68d-48d7-8542-64b5ae49d126"
+          },
+          "SHS-Users": {
+            "tableName": "991d0732-9a71-4950-acc8-5bd703252f59"
           }
         }
       }
     },
     "dataSources": [
-      "Division_1"
+      "Division_1",
+      "SHS-Users"
     ],
     "dependencies": {},
     "dependents": [],
