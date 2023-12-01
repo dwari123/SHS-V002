@@ -1485,7 +1485,7 @@ Division As screen:
 
         Label24 As label:
             Height: =158
-            Text: ="Textelete?"
+            Text: ="Are you sure you want to delete?"
             Width: =750
             X: =63
             Y: =150
