@@ -1427,8 +1427,14 @@
             ZIndex: =3
 
         Button10 As button:
-            Text: ="Button"
+            Text: ="Yes"
             X: =42
             Y: =321
             ZIndex: =4
+
+        Button10_1 As button:
+            Text: ="Yes"
+            X: =342
+            Y: =321
+            ZIndex: =5
 
