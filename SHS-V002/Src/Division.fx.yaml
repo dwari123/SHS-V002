@@ -709,3 +709,9 @@ Division As screen:
             Y: =444
             ZIndex: =4
 
+    Label20 As label:
+        Text: ="Text"
+        X: =312
+        Y: =342
+        ZIndex: =11
+
