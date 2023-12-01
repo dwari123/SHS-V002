@@ -94,6 +94,7 @@ Division As screen:
 
         Form1 As form:
             DataSource: =Division_1
+            DefaultMode: =FormMode.New
             Height: =276
             Width: =1066
             Y: =99
