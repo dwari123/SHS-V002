@@ -107,7 +107,8 @@ Division As screen:
             ZIndex: =3
 
         Button4_1 As button:
-            OnSelect: =Select(Parent)
+            OnSelect: |-
+                =UpdateContext({varshowdeletedivpopup:true})
             Text: ="Delete"
             Width: =114
             X: =770
