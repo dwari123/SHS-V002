@@ -768,7 +768,7 @@ Division As screen:
 
         Button3 As button:
             OnSelect: |-
-                =SubmitForm(Form1);NewForm(Form1);UpdateContext({showpopup:false});Notify("The division has been added successfully",NotificationType.Success
+                =SubmitForm(Form1);NewForm(Form1);UpdateContext({showpopup:false});Notify("The division has been added successfully",NotificationType.Success)
             Text: ="Save"
             X: =24
             Y: =444
@@ -1434,7 +1434,7 @@ Division As screen:
 
             Button5 As button:
                 OnSelect: |-
-                    =SubmitForm(Form2);UpdateContext({varshoweditpopup:false})
+                    =SubmitForm(Form2);UpdateContext({varshoweditpopup:false});Notify("The division has been updated successfully",NotificationType.Success
                 Text: ="Save"
                 X: =47
                 Y: =368
