@@ -59,7 +59,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Approver 4_2",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -148,7 +147,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Inbox 4",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -244,7 +242,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Inbox 4(com)_1",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
