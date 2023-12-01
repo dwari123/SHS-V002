@@ -75,9 +75,15 @@ Division As screen:
 
     Container6 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(238, 204, 204, 1)
-        Height: =436
-        Width: =1036
-        X: =246
-        Y: =260
+        Height: =474
+        Width: =1066
+        X: =230
+        Y: =181
         ZIndex: =10
+
+        Label17 As label:
+            Text: ="Text"
+            X: =24
+            Y: =21
+            ZIndex: =1
 
