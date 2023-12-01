@@ -1,4 +1,5 @@
 Component1 As CanvasComponent:
+    ComHeaderHeight: =Container1.Height
     CurrentScreen: ="Text"
     Fill: =RGBA(0, 0, 0, 0)
     Height: =900
@@ -33,6 +34,7 @@ Component1 As CanvasComponent:
         =1//1:Left, 2:Top, 3:Bottom
     submenu_inbox: |-
         =Table({SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true})
+    VarMenuWidth: =MenuGallery.Width
     Width: =1366
     X: =0
     Y: =0
@@ -98,7 +100,7 @@ Component1 As CanvasComponent:
             Y: =33
             ZIndex: =6
 
-    Gallery3 As gallery.galleryVertical:
+    MenuGallery As gallery.galleryVertical:
         BorderColor: =RGBA(204, 231, 246, 1)
         BorderThickness: =1
         DelayItemLoading: =true
@@ -114,15 +116,15 @@ Component1 As CanvasComponent:
             )
         TemplateFill: =If(ThisItem.Title=Component1.CurrentScreen,Color.Aquamarine,Color.White)
         TemplatePadding: =1
-        TemplateSize: =84
+        TemplateSize: =42
         Transition: =Transition.Pop
         Visible: =ShowMenu
-        Width: =282
+        Width: =273
         Y: =123
         ZIndex: =2
 
         Title_Parent As label:
-            Height: =84
+            Height: =37
             HoverBorderColor: =
             HoverColor: =
             HoverFill: =
