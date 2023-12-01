@@ -808,12 +808,14 @@ Division As screen:
         Container7 As groupContainer.manualLayoutContainer:
             Fill: =RGBA(166, 166, 166, 0.51)
             Height: =768
+            Visible: =varshoweditpopup
             Width: =1366
             ZIndex: =16
 
         Container8 As groupContainer.manualLayoutContainer:
             Fill: =RGBA(253, 222, 207, 1)
             Height: =450
+            Visible: =varshoweditpopup
             Width: =926
             X: =303
             Y: =147
