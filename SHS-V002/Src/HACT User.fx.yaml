@@ -179,7 +179,8 @@
             ZIndex: =4
 
         Button7 As button:
-            OnSelect: =Select(Parent)
+            OnSelect: |-
+                =UpdateContext({varshoweditshsuserpopup:true})
             Text: ="Edit"
             Width: =106
             X: =826
