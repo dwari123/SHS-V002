@@ -171,3 +171,10 @@
             Y: =18
             ZIndex: =3
 
+        Label26_3 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'User Role'
+            X: =676
+            Y: =18
+            ZIndex: =4
+
