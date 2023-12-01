@@ -791,3 +791,11 @@
         Width: =1366
         ZIndex: =18
 
+    Container14 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(238, 204, 204, 1)
+        Height: =451
+        Width: =1016
+        X: =274
+        Y: =161
+        ZIndex: =19
+
