@@ -188,7 +188,7 @@
 
         Button7_1 As button:
             OnSelect: =Select(Parent)
-            Text: ="Edit"
+            Text: ="Delete"
             Width: =106
             X: =944
             Y: =18
