@@ -800,7 +800,7 @@
         ZIndex: =19
 
         Label28 As label:
-            Text: ="Text"
+            Text: ="Edit SHS User"
             X: =9
             Y: =18
             ZIndex: =1
