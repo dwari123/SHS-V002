@@ -82,9 +82,20 @@
         FontWeight: =FontWeight.Bold
         Height: =36
         Size: =20
-        Text: ="Display Name"
+        Text: ="Designation"
         Width: =198
         X: =545
         Y: =294
         ZIndex: =10
+
+    Label25_2 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =36
+        Size: =20
+        Text: ="Designation"
+        Width: =198
+        X: =758
+        Y: =294
+        ZIndex: =11
 
