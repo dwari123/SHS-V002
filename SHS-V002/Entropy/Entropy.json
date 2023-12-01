@@ -442,6 +442,7 @@
     "Settings": 294,
     "Settings(com)": 65,
     "Settings(com)_1": 296,
+    "showdeletedivpopup": 497,
     "Star1_1": 151,
     "Star1_2": 352,
     "Star1_3": 127,
@@ -480,7 +481,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/01/2023 11:17:53",
+  "HeaderLastSavedDateTimeUTC": "12/01/2023 11:18:23",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5d809d0c-f856-4cdc-aac2-b07088dcc01c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -599,6 +600,10 @@
     "Editdivpopup": {
       "Container7": 0,
       "Container8": 1
+    },
+    "showdeletedivpopup": {
+      "Container10": 1,
+      "Container9": 0
     }
   },
   "OrderPcfTemplate": {},
@@ -1059,6 +1064,7 @@
     "Settings": {},
     "Settings(com)": {},
     "Settings(com)_1": {},
+    "showdeletedivpopup": {},
     "Star1_1": {},
     "Star1_2": {},
     "Star1_3": {},
@@ -1538,6 +1544,7 @@
     "Settings": 335,
     "Settings(com)": 114,
     "Settings(com)_1": 208,
+    "showdeletedivpopup": 0,
     "Star1_1": 13,
     "Star1_2": 297,
     "Star1_3": 310,
