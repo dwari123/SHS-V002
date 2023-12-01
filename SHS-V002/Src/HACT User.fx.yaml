@@ -775,6 +775,8 @@
             ZIndex: =3
 
         Button8_1 As button:
+            OnSelect: |-
+                =UpdateContext({varaddshsuserpopup:false})
             Text: ="Cancel"
             X: =486
             Y: =462
