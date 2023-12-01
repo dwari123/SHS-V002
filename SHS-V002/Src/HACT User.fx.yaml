@@ -104,9 +104,20 @@
         FontWeight: =FontWeight.Bold
         Height: =36
         Size: =20
-        Text: ="Stakeholder"
+        Text: ="User Role"
         Width: =198
         X: =949
         Y: =294
         ZIndex: =12
+
+    Label25_4 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =36
+        Size: =20
+        Text: ="User Role"
+        Width: =198
+        X: =1158
+        Y: =294
+        ZIndex: =13
 
