@@ -1419,7 +1419,8 @@
 
         Label29 As label:
             Height: =164
-            Text: ="Text"
+            Size: =40
+            Text: ="Are You sure You want to Delete?"
             Width: =646
             X: =108
             Y: =117
