@@ -583,11 +583,12 @@
     "Title_Parent_5": 121,
     "Upload Result": 304,
     "User Role_DataCard1": 551,
-    "User Role_DataCard2": 607
+    "User Role_DataCard2": 607,
+    "vareditshsuserpopup": 625
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/01/2023 11:49:57",
+  "HeaderLastSavedDateTimeUTC": "12/01/2023 11:50:40",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5d809d0c-f856-4cdc-aac2-b07088dcc01c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -711,6 +712,10 @@
     "showdeletedivpopup": {
       "Container10": 1,
       "Container9": 0
+    },
+    "vareditshsuserpopup": {
+      "Container13": 1,
+      "Container14": 0
     }
   },
   "OrderPcfTemplate": {},
@@ -1312,7 +1317,8 @@
     "Title_Parent_5": {},
     "Upload Result": {},
     "User Role_DataCard1": {},
-    "User Role_DataCard2": {}
+    "User Role_DataCard2": {},
+    "vareditshsuserpopup": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -1898,7 +1904,8 @@
     "Title_Parent_5": 480,
     "Upload Result": 345,
     "User Role_DataCard1": 250,
-    "User Role_DataCard2": 0
+    "User Role_DataCard2": 0,
+    "vareditshsuserpopup": 0
   },
   "ResourcesJsonIndices": {
     "Image-dashboard": 1,
