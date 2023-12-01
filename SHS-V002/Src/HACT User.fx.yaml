@@ -767,13 +767,15 @@
                     ZIndex: =4
 
         Button8 As button:
+            OnSelect: |-
+                =SubmitForm(Form3);NewForm(Form3);UpdateContext({varaddshsuserpopup:false})
             Text: ="Save"
             X: =33
             Y: =462
             ZIndex: =3
 
         Button8_1 As button:
-            Text: ="Save"
+            Text: ="Cancel"
             X: =486
             Y: =462
             ZIndex: =4
