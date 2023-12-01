@@ -39,12 +39,19 @@
         ZIndex: =4
 
     Search_12 As Search:
-        X: =887
+        X: =731
         Y: =180
         ZIndex: =5
 
     "'Add doc_Button_12' As 'Add doc_Button'":
-        X: =1168
-        Y: =177
+        X: =956
+        Y: =180
         ZIndex: =6
+
+    Button1_2 As button:
+        PaddingLeft: =35
+        Text: ="Add"
+        X: =1166
+        Y: =180
+        ZIndex: =7
 
