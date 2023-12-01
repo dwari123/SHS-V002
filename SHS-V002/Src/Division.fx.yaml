@@ -725,9 +725,20 @@ Division As screen:
         FontWeight: =FontWeight.Bold
         Height: =44
         Size: =20
-        Text: ="Division Code"
+        Text: ="Division Name"
         Width: =220
         X: =557
         Y: =318
         ZIndex: =12
+
+    Label20_2 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =44
+        Size: =20
+        Text: ="Division Name"
+        Width: =220
+        X: =921
+        Y: =318
+        ZIndex: =13
 
