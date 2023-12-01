@@ -74,6 +74,45 @@ Division As screen:
         Y: =2
         ZIndex: =9
 
+    Gallery6 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =357
+        Items: =Division_1
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =94
+        Width: =1063
+        X: =303
+        Y: =411
+        ZIndex: =10
+
+        Label21_1 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Division Name'
+            X: =302
+            ZIndex: =1
+
+        Label21 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Division Code'
+            X: =33
+            ZIndex: =2
+
+        Button4 As button:
+            OnSelect: |-
+                =UpdateContext({varshoweditpopup:true})
+            Text: ="Edit"
+            Width: =114
+            X: =606
+            ZIndex: =3
+
+        Button4_1 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Delete"
+            Width: =114
+            X: =770
+            ZIndex: =4
+
     Container6 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(238, 204, 204, 1)
         Height: =520
@@ -81,7 +120,7 @@ Division As screen:
         Width: =1066
         X: =230
         Y: =181
-        ZIndex: =10
+        ZIndex: =11
 
         Label17 As label:
             Align: =Align.Center
@@ -709,7 +748,7 @@ Division As screen:
             Y: =444
             ZIndex: =4
 
-    Label20 As label:
+    "'Division Code' As label":
         Align: =Align.Center
         FontWeight: =FontWeight.Bold
         Height: =44
@@ -718,9 +757,9 @@ Division As screen:
         Width: =220
         X: =303
         Y: =318
-        ZIndex: =11
+        ZIndex: =12
 
-    Label20_1 As label:
+    "'Division Name' As label":
         Align: =Align.Center
         FontWeight: =FontWeight.Bold
         Height: =44
@@ -729,7 +768,7 @@ Division As screen:
         Width: =220
         X: =557
         Y: =318
-        ZIndex: =12
+        ZIndex: =13
 
     Label20_2 As label:
         Align: =Align.Center
@@ -740,7 +779,7 @@ Division As screen:
         Width: =220
         X: =921
         Y: =318
-        ZIndex: =13
+        ZIndex: =14
 
     Icon5_19 As icon.HorizontalLine:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -757,46 +796,7 @@ Division As screen:
         Width: =1050
         X: =291
         Y: =384
-        ZIndex: =14
-
-    Gallery6 As gallery.galleryVertical:
-        DelayItemLoading: =true
-        Height: =357
-        Items: =Division_1
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =94
-        Width: =1063
-        X: =303
-        Y: =411
         ZIndex: =15
-
-        Label21 As label:
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.'Division Code'
-            X: =33
-            ZIndex: =1
-
-        Label21_1 As label:
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.'Division Name'
-            X: =302
-            ZIndex: =2
-
-        Button4 As button:
-            OnSelect: |-
-                =UpdateContext({varshoweditpopup:true})
-            Text: ="Edit"
-            Width: =114
-            X: =606
-            ZIndex: =3
-
-        Button4_1 As button:
-            OnSelect: =Select(Parent)
-            Text: ="Delete"
-            Width: =114
-            X: =770
-            ZIndex: =4
 
     Editdivpopup As group:
         Height: =5
