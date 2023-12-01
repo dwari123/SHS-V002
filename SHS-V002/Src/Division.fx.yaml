@@ -710,8 +710,8 @@ Division As screen:
             ZIndex: =4
 
     Label20 As label:
-        Text: ="Text"
-        X: =312
-        Y: =342
+        Text: ="Division Code"
+        X: =303
+        Y: =318
         ZIndex: =11
 
