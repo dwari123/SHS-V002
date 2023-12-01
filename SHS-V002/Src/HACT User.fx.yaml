@@ -49,6 +49,7 @@
         ZIndex: =6
 
     Button1_2 As button:
+        OnSelect: =UpdateContext({varaddshsuserpopup})
         PaddingLeft: =35
         Text: ="Add"
         X: =1166
