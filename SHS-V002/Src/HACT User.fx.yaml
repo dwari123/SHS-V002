@@ -221,6 +221,7 @@
 
         Form3 As form:
             DataSource: ='SHS-Users'
+            DefaultMode: =FormMode.New
             Height: =318
             Width: =954
             Y: =87
@@ -764,4 +765,10 @@
                     Wrap: =false
                     Y: =DataCardKey30.Y
                     ZIndex: =4
+
+        Button8 As button:
+            Text: ="Button"
+            X: =33
+            Y: =462
+            ZIndex: =3
 
