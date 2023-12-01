@@ -209,7 +209,7 @@
         ZIndex: =17
 
         Label27 As label:
-            Text: ="Text"
+            Text: ="Add SHS Users"
             X: =12
             Y: =21
             ZIndex: =1
