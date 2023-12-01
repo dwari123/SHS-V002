@@ -77,3 +77,14 @@
         Y: =294
         ZIndex: =9
 
+    Label25_1 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =36
+        Size: =20
+        Text: ="Display Name"
+        Width: =198
+        X: =545
+        Y: =294
+        ZIndex: =10
+
