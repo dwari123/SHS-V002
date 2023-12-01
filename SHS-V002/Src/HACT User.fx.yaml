@@ -799,3 +799,9 @@
         Y: =161
         ZIndex: =19
 
+        Label28 As label:
+            Text: ="Text"
+            X: =9
+            Y: =18
+            ZIndex: =1
+
