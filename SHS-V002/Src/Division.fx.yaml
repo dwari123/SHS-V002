@@ -64,3 +64,10 @@ Division As screen:
         Y: =197
         ZIndex: =8
 
+    Container5 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(166, 166, 166, 0.4)
+        Height: =766
+        Width: =1366
+        Y: =2
+        ZIndex: =9
+
