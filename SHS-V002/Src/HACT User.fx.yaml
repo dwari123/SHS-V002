@@ -786,12 +786,6 @@
             Y: =462
             ZIndex: =4
 
-    Container15 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(166, 166, 166, 0.46)
-        Height: =768
-        Width: =1366
-        ZIndex: =20
-
     vareditshsuserpopup As group:
         Height: =5
         Width: =5
@@ -1390,55 +1384,70 @@
                 Y: =378
                 ZIndex: =4
 
-    Container16 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(238, 204, 204, 1)
-        Height: =410
-        Width: =919
-        X: =228
-        Y: =149
-        ZIndex: =21
+    vardeleteshsuserspopup As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =22
 
-        Label20 As label:
-            Align: =Align.Center
-            FontWeight: =FontWeight.Bold
-            Height: =48
-            Size: =30
-            Text: ="Confirmation"
-            Width: =346
-            X: =156
-            Y: =42
-            ZIndex: =1
+        Container15 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(166, 166, 166, 0.46)
+            Height: =768
+            Visible: =vardeleteshsuserpopup
+            Width: =1366
+            ZIndex: =20
 
-        Icon17 As icon.HorizontalLine:
-            BorderThickness: =1
-            Height: =0
-            Icon: =Icon.HorizontalLine
-            Width: =917
-            Y: =90
-            ZIndex: =2
+        Container16 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(238, 204, 204, 1)
+            Height: =410
+            Visible: =vardeleteshsuserpopup
+            Width: =919
+            X: =228
+            Y: =149
+            ZIndex: =21
 
-        Label29 As label:
-            Height: =164
-            Size: =40
-            Text: ="Are You sure You want to Delete?"
-            Width: =646
-            X: =108
-            Y: =117
-            ZIndex: =3
+            Label20 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =30
+                Text: ="Confirmation"
+                Width: =346
+                X: =156
+                Y: =42
+                ZIndex: =1
 
-        Button10 As button:
-            OnSelect: |-
-                =Remove('SHS-Users',Gallery7.Selected);UpdateContext({vardeleteshsuserpopup:false});Notify("The SHS users has been deleted successfully",NotificationType.Success
-            Text: ="Yes"
-            X: =42
-            Y: =321
-            ZIndex: =4
+            Icon17 As icon.HorizontalLine:
+                BorderThickness: =1
+                Height: =0
+                Icon: =Icon.HorizontalLine
+                Width: =917
+                Y: =90
+                ZIndex: =2
 
-        Button10_1 As button:
-            OnSelect: |-
-                =UpdateContext({vardeleteshsuserpopup:false})
-            Text: ="No"
-            X: =342
-            Y: =321
-            ZIndex: =5
+            Label29 As label:
+                Height: =164
+                Size: =40
+                Text: ="Are You sure You want to Delete?"
+                Width: =646
+                X: =108
+                Y: =117
+                ZIndex: =3
+
+            Button10 As button:
+                OnSelect: |-
+                    =Remove('SHS-Users',Gallery7.Selected);UpdateContext({vardeleteshsuserpopup:false});Notify("The SHS users has been deleted successfully",NotificationType.Success)
+                Text: ="Yes"
+                X: =42
+                Y: =321
+                ZIndex: =4
+
+            Button10_1 As button:
+                OnSelect: |-
+                    =UpdateContext({vardeleteshsuserpopup:false})
+                Text: ="No"
+                X: =342
+                Y: =321
+                ZIndex: =5
 
