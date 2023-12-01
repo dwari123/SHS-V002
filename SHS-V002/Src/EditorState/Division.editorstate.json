@@ -46,6 +46,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Add doc_Button_4",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -128,6 +129,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Arrow1_4",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -279,6 +281,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Component1_9",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -367,6 +370,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Division",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -547,6 +551,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon5_3",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -768,6 +773,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label12",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1009,6 +1015,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Search_4",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [

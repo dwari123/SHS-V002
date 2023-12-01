@@ -74,6 +74,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Approver2_1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -202,6 +203,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Inbox 2(comp)_1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -275,6 +277,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Inbox(Approver2)",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
