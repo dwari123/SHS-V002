@@ -100,7 +100,7 @@ Segment As screen:
         Width: =1062
         X: =291
         Y: =356
-        ZIndex: =15
+        ZIndex: =13
 
         Label_segmentcode As label:
             OnSelect: =Select(Parent)
@@ -147,7 +147,7 @@ Segment As screen:
             Height: =768
             Visible: =ShowPopup_edit
             Width: =1366
-            ZIndex: =17
+            ZIndex: =15
 
         Container_edit_SG_PU As groupContainer.manualLayoutContainer:
             Fill: =RGBA(40, 134, 222, 1)
@@ -156,7 +156,7 @@ Segment As screen:
             Width: =1274
             X: =40
             Y: =70
-            ZIndex: =18
+            ZIndex: =16
 
             btn_save_edit As button:
                 OnSelect: |-
@@ -339,7 +339,7 @@ Segment As screen:
             Height: =768
             Visible: =ShowPopup_del
             Width: =1366
-            ZIndex: =14
+            ZIndex: =12
 
         container_del_confirmation As groupContainer.manualLayoutContainer:
             Fill: =RGBA(83, 144, 164, 1)
@@ -348,7 +348,7 @@ Segment As screen:
             Width: =695
             X: =339
             Y: =274
-            ZIndex: =16
+            ZIndex: =14
 
             Label34 As label:
                 Text: ="Confirmation"
@@ -393,7 +393,7 @@ Segment As screen:
             Height: =768
             Visible: =ShowPopup
             Width: =1366
-            ZIndex: =12
+            ZIndex: =17
 
         Container_sg_PU_form As groupContainer.manualLayoutContainer:
             Fill: =RGBA(233, 79, 76, 1)
@@ -402,7 +402,7 @@ Segment As screen:
             Width: =1200
             X: =90
             Y: =70
-            ZIndex: =13
+            ZIndex: =18
 
             Label30 As label:
                 Height: =58
