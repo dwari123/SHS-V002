@@ -1,35 +1,77 @@
 Segment As screen:
 
-    Component1_10 As Component1:
-        CurrentScreen: ="Administration"
-        Height: =768
+    "'Segment code' As label":
+        Height: =46
+        Text: ="Segment Code"
+        Width: =270
+        X: =296
+        Y: =294
+        ZIndex: =1
+
+    Action_segment As label:
+        Height: =46
+        Text: ="Action"
+        Width: =270
+        X: =1071
+        Y: =297
+        ZIndex: =2
+
+    "'Segment name' As label":
+        Height: =46
+        Text: ="Segment Name"
+        Width: =270
+        X: =650
+        Y: =294
+        ZIndex: =3
 
     Gallery_segment As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =406
-        Items: =Segment_1
+        Height: =412
+        Items: =Segment_2
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =96
-        Width: =1045
-        X: =296
-        Y: =361
-        ZIndex: =1
+        TemplateSize: =104
+        Width: =1062
+        X: =291
+        Y: =356
+        ZIndex: =4
 
-        Segment_code As label:
+        Label_segmentcode As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Segment Code'
-            X: =24
-            Y: =27
+            X: =27
+            Y: =33
             ZIndex: =1
 
-        Segment_code_1 As label:
+        Label_segmentname As label:
+            Height: =33
             OnSelect: =Select(Parent)
-            Text: |
-                =ThisItem.'Segment Name'
-            X: =351
-            Y: =27
+            Text: =ThisItem.'Segment Name'
+            Width: =196
+            X: =368
+            Y: =40
             ZIndex: =2
+
+        btn_edit_sg As button:
+            OnSelect: =Select(Parent)
+            Text: ="Edit"
+            X: =700
+            Y: =33
+            ZIndex: =3
+
+        btn_del_sg As button:
+            OnSelect: |-
+                =UpdateContext({ShowPopup_del:true});
+            Text: ="Delete"
+            Width: =136
+            X: =900
+            Y: =33
+            ZIndex: =4
+
+    Component1_10 As Component1:
+        CurrentScreen: ="Administration"
+        Height: =768
+        ZIndex: =5
 
     Arrow1_5 As arrow.backArrow:
         Fill: =RGBA(0, 18, 107, 1)
@@ -38,7 +80,7 @@ Segment As screen:
         Width: =32
         X: =291
         Y: =147
-        ZIndex: =2
+        ZIndex: =6
 
     Label12_1 As label:
         FontWeight: =FontWeight.Bold
@@ -46,12 +88,12 @@ Segment As screen:
         Text: ="Segment"
         X: =291
         Y: =202
-        ZIndex: =3
+        ZIndex: =7
 
     Search_5 As Search:
         X: =667
         Y: =195
-        ZIndex: =4
+        ZIndex: =8
 
     Icon5_4 As icon.HorizontalLine:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -68,12 +110,12 @@ Segment As screen:
         Width: =1050
         X: =291
         Y: =273
-        ZIndex: =5
+        ZIndex: =9
 
     "'Add doc_Button_5' As 'Add doc_Button'":
         X: =936
         Y: =195
-        ZIndex: =6
+        ZIndex: =10
 
     Button11 As button:
         OnSelect: |-
@@ -82,7 +124,7 @@ Segment As screen:
         Text: ="Add"
         X: =1130
         Y: =200
-        ZIndex: =7
+        ZIndex: =11
 
     Icon18 As icon.Add:
         Height: =36
@@ -90,23 +132,23 @@ Segment As screen:
         Width: =34
         X: =1146
         Y: =199
-        ZIndex: =8
+        ZIndex: =12
 
     Container_showPopup As groupContainer.manualLayoutContainer:
         Fill: =RGBA(253, 207, 180, 0.6)
         Height: =768
         Visible: =ShowPopup
         Width: =1366
-        ZIndex: =9
+        ZIndex: =13
 
-    Container17 As groupContainer.manualLayoutContainer:
+    Container_sg_PU_form As groupContainer.manualLayoutContainer:
         Fill: =RGBA(233, 79, 76, 1)
         Height: =588
         Visible: =ShowPopup
         Width: =1200
         X: =90
         Y: =70
-        ZIndex: =10
+        ZIndex: =14
 
         Label30 As label:
             Height: =58
@@ -117,9 +159,9 @@ Segment As screen:
             ZIndex: =1
 
         Form5 As form:
-            DataSource: =Segment_1
+            DataSource: =Segment_2
             DefaultMode: =FormMode.New
-            Height: =248
+            Height: =269
             NumberOfColumns: =1
             X: =60
             Y: =147
@@ -130,10 +172,10 @@ Segment As screen:
                 DataField: ="Title"
                 Default: =ThisItem.'Segment Code'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Segment_1],DataSourceInfo.DisplayName,"Title")
+                DisplayName: =DataSourceInfo([@Segment_2],DataSourceInfo.DisplayName,"Title")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Segment_1], DataSourceInfo.MaxLength, "Title")
+                MaxLength: =DataSourceInfo([@Segment_2], DataSourceInfo.MaxLength, "Title")
                 Required: =true
                 Update: =DataCardValue3.Text
                 Width: =800
@@ -198,10 +240,10 @@ Segment As screen:
                 DataField: ="SegmentName"
                 Default: =ThisItem.'Segment Name'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Segment_1],DataSourceInfo.DisplayName,"SegmentName")
+                DisplayName: =DataSourceInfo([@Segment_2],DataSourceInfo.DisplayName,"SegmentName")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Segment_1], DataSourceInfo.MaxLength, "SegmentName")
+                MaxLength: =DataSourceInfo([@Segment_2], DataSourceInfo.MaxLength, "SegmentName")
                 Required: =true
                 Update: =DataCardValue11.Text
                 Width: =800
@@ -278,27 +320,48 @@ Segment As screen:
             Y: =447
             ZIndex: =4
 
-    "'Segment code' As label":
-        Height: =46
-        Text: ="Segment Code"
-        Width: =270
-        X: =296
-        Y: =294
-        ZIndex: =11
+    Container_sg_del_PU As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(233, 79, 76, 0.55)
+        Height: =768
+        Visible: =ShowPopup_del
+        Width: =1366
+        ZIndex: =15
 
-    Action_segment As label:
-        Height: =46
-        Text: ="Action"
-        Width: =270
-        X: =1071
-        Y: =297
-        ZIndex: =12
+    container_del_confirmation As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(83, 144, 164, 1)
+        Height: =314
+        Visible: =ShowPopup_del
+        Width: =695
+        X: =339
+        Y: =274
+        ZIndex: =16
 
-    "'Segment name' As label":
-        Height: =46
-        Text: ="Segment Name"
-        Width: =270
-        X: =650
-        Y: =294
-        ZIndex: =13
+        Label34 As label:
+            Text: ="Confirmation"
+            X: =270
+            Y: =45
+            ZIndex: =1
+
+        Label35 As label:
+            Align: =Align.Center
+            Height: =81
+            Text: ="Are You Sure You Want to Delete"
+            Width: =438
+            X: =126
+            Y: =116
+            ZIndex: =2
+
+        Btn_yes As button:
+            Text: ="Yes"
+            X: =143
+            Y: =225
+            ZIndex: =3
+
+        Btn_No As button:
+            OnSelect: |-
+                =UpdateContext({ShowPopup_del:false})
+            Text: ="No"
+            X: =420
+            Y: =225
+            ZIndex: =4
 
