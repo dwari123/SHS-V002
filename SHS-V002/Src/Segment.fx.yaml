@@ -369,12 +369,14 @@ Segment As screen:
     Container_edit As groupContainer.manualLayoutContainer:
         Fill: =RGBA(255, 184, 174, 0.57)
         Height: =768
+        Visible: =ShowPopup_edit
         Width: =1366
         ZIndex: =17
 
     Container_edit_SG_PU As groupContainer.manualLayoutContainer:
         Fill: =RGBA(40, 134, 222, 1)
         Height: =476
+        Visible: =ShowPopup_edit
         Width: =1274
         X: =40
         Y: =70
