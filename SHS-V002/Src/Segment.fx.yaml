@@ -409,7 +409,7 @@ Segment As screen:
         Form6 As form:
             DataSource: =Segment_2
             Height: =226
-            Item: =Gallery_segment
+            Item: =Gallery_segment.Selected
             NumberOfColumns: =1
             X: =60
             Y: =123
