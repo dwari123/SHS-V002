@@ -9,25 +9,102 @@ Component1 As CanvasComponent:
         =Table(
             {
                 Title: "Dashboard",
-                TargetScreen: Dashboard
+                TargetScreen: Dashboard,
+                Icon:Icon.Home,
+                SubMenu:Table()
                 
             },
             {
                 Title: "Inbox",
-                TargetScreen: Inbox      
+                TargetScreen: Inbox,
+                Icon:Icon.Mail,
+                SubMenu:Table(
+                    {
+                        Title: "All Study",
+                        TargetScreen:'All Study' ,
+                        Icon: Icon.DetailList
+                    },{
+                        Title: "All Initiatives ",
+                        TargetScreen: 'All Initiatives',
+                        Icon: Icon.DetailList
+                    }
+                )    
                 
             },
             {
                 Title: "Administration",
-                TargetScreen: Administration
+                TargetScreen: Administration,
+                Icon:Icon.Document,
+                SubMenu:Table(
+                    {
+                        Title: "Division",
+                        TargetScreen:Division ,
+                        Icon: Icon.DetailList
+                    },{
+                        Title: "Segment ",
+                        TargetScreen: 'Segment',
+                        Icon: Icon.DetailList
+                    },
+                    {
+                        Title: "Segment Member",
+                        TargetScreen: 'Segment Member',
+                        Icon: Icon.DetailList
+                    },
+                    {
+                        Title: "Factor",
+                        TargetScreen: Factors,
+                        Icon: Icon.DetailList
+                    },
+                    {
+                        Title: "Subfactors",
+                        TargetScreen: Subfactors,
+                        Icon: Icon.DetailList
+                    },
+                    {
+                        Title: "Questions",
+                        TargetScreen: Questions,
+                        Icon: Icon.DetailList
+                    },
+                    {
+                        Title: "Options",
+                        TargetScreen: Options,
+                        Icon: Icon.DetailList
+                    },
+                    {
+                        Title: "Study",
+                        TargetScreen: Options,
+                        Icon: Icon.DetailList
+                    }
+        
+                )
             },
             {
                 Title: "Settings",
-                TargetScreen: Settings
+                TargetScreen: Settings,
+                Icon:Icon.Settings,
+                SubMenu:Table({
+                        Title: "SHS User",
+                        TargetScreen: 'HACT User',
+                        Icon: Icon.DetailList
+                    })
             },
             {
                 Title: "Configuration",
-                TargetScreen: Configuration
+                TargetScreen: Configuration,
+                Icon:Icon.Printing3D,
+                SubMenu:Table(
+                    {
+                        Title: "SHS Configuration",
+                        TargetScreen: 'HACT Configuration',
+                        Icon: Icon.DetailList
+                    }
+                    ,
+                    {
+                        Title: "Upload Result",
+                        TargetScreen: 'Upload Result',
+                        Icon: Icon.DetailList
+                    }
+                )
             }
         )
     NavType: |-
