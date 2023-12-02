@@ -314,7 +314,14 @@
         "X",
         "Y",
         "ZIndex",
-        "Menu",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Table(\n    {\n        Title: \"Dashboard\",\n        TargetScreen: Dashboard\n        \n    },\n    {\n        Title: \"Inbox\",\n        TargetScreen: Inbox\n\n       \n        \n    },\n    {\n        Title: \"Administration\",\n        TargetScreen: Administration\n    },\n    {\n        Title: \"Settings\",\n        TargetScreen: Settings\n    },\n    {\n        Title: \"Configuration\",\n        TargetScreen: Configuration\n    }\n)",
+          "InvariantPropertyName": "Menu",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "CurrentScreen",
         {
           "AFDDataSourceName": "",
