@@ -133,5 +133,6 @@ Component1 As CanvasComponent:
             Size: =20
             Text: =ThisItem.Title
             Width: =280
+            Y: =5
             ZIndex: =2
 
