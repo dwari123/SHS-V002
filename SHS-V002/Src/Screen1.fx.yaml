@@ -96,7 +96,7 @@ Screen1 As screen:
         Icon22 As icon.Add:
             Height: =52
             Icon: =Icon.Add
-            OnSelect: =Add('MapDiv(Factors)',Gallery3.Selected)
+            OnSelect: =SubmitForm(Form5)
             Width: =47
             X: =358
             Y: =168
