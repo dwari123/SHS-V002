@@ -134,3 +134,9 @@ Screen1 As screen:
             Y: =309
             ZIndex: =4
 
+        Label30 As label:
+            Text: ="Text"
+            X: =27
+            Y: =345
+            ZIndex: =5
+
