@@ -233,7 +233,7 @@ Component1 As CanvasComponent:
         "Icon19 As icon.'3DPrinting'":
             Color: =RGBA(0, 0, 0, 1)
             Height: =52
-            Icon: =ThisItem.
+            Icon: =ThisItem.Icon
             OnSelect: =Select(Parent)
             Width: =44
             X: =2
