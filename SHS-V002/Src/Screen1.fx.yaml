@@ -1,0 +1,8 @@
+Screen1 As screen:
+
+    Icon20 As icon.ArrowRight:
+        Icon: =Icon.ArrowRight
+        X: =426
+        Y: =198
+        ZIndex: =1
+

@@ -42,7 +42,7 @@ Component1 As CanvasComponent:
                         Icon: Icon.DetailList
                     },{
                         Title: "Segment ",
-                        TargetScreen: 'Segment',
+                        TargetScreen: Segment,
                         Icon: Icon.DetailList
                     },
                     {
