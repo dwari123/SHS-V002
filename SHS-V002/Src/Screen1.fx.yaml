@@ -135,8 +135,14 @@ Screen1 As screen:
             ZIndex: =4
 
         Label30 As label:
-            Text: ="Text"
+            Text: ="Division"
             X: =27
             Y: =345
             ZIndex: =5
+
+        Label30_1 As label:
+            Text: ="Division"
+            X: =255
+            Y: =345
+            ZIndex: =6
 
