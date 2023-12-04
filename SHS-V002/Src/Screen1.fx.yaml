@@ -22,6 +22,7 @@ Screen1 As screen:
 
         Form5 As form:
             DataSource: ='MapDiv(Factors)'
+            DefaultMode: =FormMode.New
             Height: =106
             Width: =1014
             Y: =126
