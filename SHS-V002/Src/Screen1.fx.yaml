@@ -96,7 +96,7 @@ Screen1 As screen:
         Icon22 As icon.Add:
             Height: =52
             Icon: =Icon.Add
-            OnSelect: =
+            OnSelect: =Add(Map
             Width: =47
             X: =358
             Y: =168
@@ -165,7 +165,7 @@ Screen1 As screen:
         Gallery3 As gallery.galleryVertical:
             DelayItemLoading: =true
             Height: =225
-            Items: =CustomGallerySample
+            Items: ='MapDiv(Factors)'
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             TemplateSize: =105
@@ -175,7 +175,7 @@ Screen1 As screen:
 
             Label32 As label:
                 OnSelect: =Select(Parent)
-                Text: =ThisItem.SampleHeading
+                Text: =ThisItem.Title
                 X: =21
                 Y: =12
                 ZIndex: =1
