@@ -20,3 +20,9 @@ Screen1 As screen:
         Y: =126
         ZIndex: =3
 
+        Form5 As form:
+            Height: =306
+            Width: =1014
+            Y: =126
+            ZIndex: =1
+

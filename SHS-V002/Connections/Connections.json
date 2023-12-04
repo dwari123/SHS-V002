@@ -11,6 +11,9 @@
           "Division_1": {
             "tableName": "31c2a3e9-f68d-48d7-8542-64b5ae49d126"
           },
+          "Segment_1": {
+            "tableName": "cb41dfdc-4f53-481c-a28c-447c0a602d55"
+          },
           "Segment_2": {
             "tableName": "cb41dfdc-4f53-481c-a28c-447c0a602d55"
           },
@@ -23,7 +26,8 @@
     "dataSources": [
       "Division_1",
       "SHS-Users",
-      "Segment_2"
+      "Segment_2",
+      "Segment_1"
     ],
     "dependencies": {},
     "dependents": [],
