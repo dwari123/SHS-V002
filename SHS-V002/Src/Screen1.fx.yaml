@@ -193,7 +193,9 @@ Screen1 As screen:
                     ZIndex: =1
 
             Button14 As button:
-                Text: ="Button"
+                OnSelect: |-
+                    =UpdateContext({mapdivpopup:false})
+                Text: ="Cancel"
                 X: =684
                 Y: =36
                 ZIndex: =9
